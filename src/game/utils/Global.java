@@ -10,7 +10,6 @@ package game.utils;
  * @author user1
  */
 public class Global {
-
     public enum Direction {
         JUMP(3),
         DOWN(0),
@@ -54,7 +53,7 @@ public class Global {
     }
     // 視窗大小
     public static final int WINDOW_WIDTH =  1080;
-    public static final int WINDOW_HEIGHT = 768;
+    public static final int WINDOW_HEIGHT = 600;
     public static final int SCREEN_X = WINDOW_WIDTH - 8 - 8;
     public static final int SCREEN_Y = WINDOW_HEIGHT - 31 - 8;
     //地圖大小

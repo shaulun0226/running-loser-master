@@ -243,10 +243,10 @@ public class PlayScene extends Scene {
                 }
             }
             if (p1Ink && i == 0) {
-                g.drawImage(imgInk, cameraArr.get(i).collider().left() + 200, cameraArr.get(i).collider().top(), 1300, 460, null);
+                g.drawImage(imgInk, cameraArr.get(i).collider().left() + WINDOW_WIDTH/15, cameraArr.get(i).collider().top(), WINDOW_WIDTH, WINDOW_HEIGHT/2, null);
             }
             if (p2Ink && i == 1) {
-                g.drawImage(imgInk, cameraArr.get(i).collider().left() + 200, cameraArr.get(i).collider().top(), 1300, 460, null);
+                g.drawImage(imgInk, cameraArr.get(i).collider().left() +  WINDOW_WIDTH/15, cameraArr.get(i).collider().top(), WINDOW_WIDTH, WINDOW_HEIGHT/2, null);
             }
             cameraArr.get(i).end(g);
         }
